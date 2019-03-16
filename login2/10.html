@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>10th day</title>
+ <link rel="stylesheet" href="10.css">
+</head>
+<body>
+
+<table width="250px" height="250px" class="table">
+
+	<tr class="head" id="box">
+		<td><center>Login Form</center></td>
+	</tr>
+
+
+	<tr>
+		<td><input type="text" placeholder="username" id="username"/>
+	</tr>
+
+	<tr>
+		<td><input type="password" placeholder="password" id="password"/>
+	</tr>
+
+	<tr>
+		<td><input type="button" value="log in" class="btn" onclick="add()" /></td>
+
+
+		<td><input type="button" class="btn" value="forgot password"></td>
+	</tr>
+</table>
+
+<script>
+	function add(){
+		var user,pass;
+		
+		 user = document.getElementById("username").value;
+		 pass = document.getElementById("password").value;
+		
+		if(user=="admin" && pass=="admin"){
+			document.write("wellcome to the page");
+		}
+		else{
+			document.write("error");
+		}
+
+	}
+		
+</script>
+
+
+
+
+</body>
+</html>

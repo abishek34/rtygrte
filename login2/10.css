@@ -1,0 +1,34 @@
+body{
+	background-image:url('4.jpg');
+	background-size:cover;
+}
+
+.table{
+	background-image:url('hd1.jpg');
+	background-size:cover;
+	margin-left:400px;
+	margin-top:200px;
+	transition:0.8s;
+	box-shadow:10px 10px 10px black;
+	cursor:hand;
+	padding:20px;
+}
+
+
+
+
+.head{
+	font-size:40px;
+}
+
+.btn{
+	border-radius:50px;
+}
+
+.table:hover{
+	box-shadow:30px 30px 30px black;
+}
+
+.btn:hover{
+	transform:scale(1.5,1.5)
+}
